@@ -11,5 +11,31 @@
             <li><a href="presentation.html">Presentation</a></li>
             <li><a href="kontakt.html">Kontakt</a></li>
         </ul>
+<!--  I added an id attribute to form to provide a unique identifier for the form so it can be more 
+easily styled using CSS or manipulated using JavaScript if required. 
+You can only have one of each id per page; in this case I called it contact-form
+-->
+        <form id="contact-form" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php"  method="post">
+            Observera!  Detta är bara ett påhittad kontaktformulär
+            <fieldset>
+                <legend>Fråga</legend>
+                <label for="errend">Ärendetyp</label>
+                    <select name="Ärendetyp" id="errend">
+                      <option value="Fråga">Fråga</option>
+                      <option value="Faktura">Faktura</option>
+                      <option value="Beställning">Beställning</option>
+                    </select> 
+<!--    for in label have the same name as id in input 
+-->
+                <label for="Rubrik">Rubrik:</label><input type="text" name="Rubrik" id="Rubrik" value="Vad göra?">
+                <label for="comments">Fråga:</label><textarea name="Fråga" id="comments">Sitter och testar detta formulär!</textarea>
+            </fieldset>
+            <fieldset>
+                <legend>Information om dig</legend>
+                <label for="email">Kontakta mig via mail</label><input name="email" id="email" type="checkbox">
+                <label for="phone">Kontakta mig via telefon</label><input name="phone" id="phone" checked type="checkbox">
+            </fieldset>
+            <button type="submit">Skicka frågan</button>        
+        </form>
     </body>
 </html>
