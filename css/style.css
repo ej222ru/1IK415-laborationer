@@ -12,18 +12,23 @@
 
 background body #FFF6B1
 background container #FFF6B1
+footer   #F3E789
 border #3D402A
 navigation  #3D402A / #F3FFA9;
 dikt #D93E27
+text  #3D402A
 
 */
 
 body { 
     background-color: #FFF6B1;
+
 }
 
 #indexHeader{
-    border: 1px solid #3D402A;  
+    border: 1px solid #F3E789;  
+    background-color: #F3E789;    
+    padding: 40px;
 }
 
 #container{
@@ -34,8 +39,9 @@ body {
     border: 2px solid #3D402A;
 }
 #content{
-    border: 1px solid #3D402A;
+    border: 1px solid #FFF6B1;
     overflow: auto;    
+    margin-left: 180px;
 <!--    float: left; --> 
 }
 
@@ -44,8 +50,9 @@ body {
     
 }
 #footer{
-    border: 1px solid #3D402A;  
+    border: 1px solid #F3E789;  
     padding-left: 40px;
+    background-color: #F3E789;
 }
 .bloggpost{
 <!--       border: 1px solid #3D402A; -->    
@@ -53,10 +60,8 @@ body {
 }
 .dikt{
     color: #D93E27;
-    
 }
 .diktstycke{
-    font-style: italic;
 }
 
 .tribut{
@@ -87,20 +92,60 @@ body {
     padding: 0;
 }
 .navigation li{ 
-    border: 1px solid #3D402A;  
+    border: 1px solid #FFF6B1;  
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 .navigation li a{ 
     display: block;
-    background-color: #F3FFA9;
-    color:#3D402A;
+    background-color: #F3E789;
+    color: #3D402A;
     padding: 18px;
 }
 .navigation li a:hover{ 
     background-color: #3D402A;
-    color:#F3FFA9;
+    color:#F3E789;
 }
 
-/***************     Layout     *****************/
+/***************     Typo     *****************/
+
+p, h1, h2, h3 {
+      color: #D93E27;
+      font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+li {
+    font-family: Georgia, "Times New Roman", Times, serif;  
+    color: #D93E27;
+}
+
+
+a {
+    font-family: Georgia, "Times New Roman", Times, serif;  
+    color: #D93E27;
+    font-style: italic;
+    font-weight: bold;    
+}
+
+a:hover{ 
+    background-color: #3D402A;
+    color:#F3E789;
+}
+.navigation li a{ 
+    font-style: normal;
+    font-weight: normal;       
+}
+
+p {
+      font-size: 1.2em;
+}
+
+.dikt{
+    font-weight: bold;
+    
+}
+
+.diktstycke{
+    font-style: italic;
+}
