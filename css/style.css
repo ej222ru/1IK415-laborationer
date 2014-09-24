@@ -6,21 +6,35 @@
 }
 */
 
-body { 
+/***************     Layout     *****************/
 
+/*
+
+background body #FFF6B1
+background container #FFF6B1
+border #3D402A
+navigation  #3D402A / #F3FFA9;
+dikt #D93E27
+
+*/
+
+body { 
+    background-color: #FFF6B1;
 }
 
 #indexHeader{
-    border: 1px solid black;  
+    border: 1px solid #3D402A;  
 }
 
 #container{
     max-width: 960px;
     overflow: auto;
     margin: 0 auto;
+    background-color: #FFF6B1;   
+    border: 2px solid #3D402A;
 }
 #content{
-    border: 1px solid black;
+    border: 1px solid #3D402A;
     overflow: auto;    
 <!--    float: left; --> 
 }
@@ -30,14 +44,15 @@ body {
     
 }
 #footer{
-    border: 1px solid black;  
+    border: 1px solid #3D402A;  
     padding-left: 40px;
 }
 .bloggpost{
-<!--       border: 1px solid black; -->    
+<!--       border: 1px solid #3D402A; -->    
 
 }
 .dikt{
+    color: #D93E27;
     
 }
 .diktstycke{
@@ -67,25 +82,27 @@ body {
     list-style:none;
 }
 .navigation ul{ 
-    border: 1px solid blue;     
+    border: 1px solid #3D402A;     
     border-bottom: none;
     margin: 0;
     padding: 0;
 }
 .navigation li{ 
     border: 1px solid black;  
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #3D402A;
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 .navigation li a{ 
     display: block;
-    background-color: #9C9;
-    color:#EFE;
+    background-color: #F3FFA9;
+    color:#3D402A;
     padding: 14px;
 }
 .navigation li a:hover{ 
-    background-color: #EFE;
-    color:#9C9;
+    background-color: #3D402A;
+    color:#F3FFA9;
 }
+
+/***************     Layout     *****************/
