@@ -53,7 +53,9 @@ body {
 }
 #footer{
     border: 1px solid #F3E789;  
+    padding-top: 60px;
     padding-left: 40px;
+    padding-bottom: 40px;
     background-color: #F3E789;
 
 }
@@ -78,7 +80,8 @@ body {
 .tribut{
 }
 
-#pingu{
+#pingu:hover{
+    transform: rotate(20deg) scale(1.6) translate(50px);    
 }
 
 #BigBuck{
@@ -159,10 +162,20 @@ p {
       font-size: 1.2em;
 }
 
-.dikt {
+.dikt:hover {
     font-weight: bold;
+    transform:  scale(1.2) ;
 }
 
 .diktstycke {
     font-style: italic;
+    font-size: 0.8em;
+    padding-left: 100px;
+       
 }
+
+.tribut{
+     padding-left: 100px;   
+ 
+}
+
