@@ -7,18 +7,69 @@
 */
 
 body { 
+
+}
+
+#indexHeader{
+    border: 1px solid black;  
+}
+
+#container{
+    max-width: 960px;
+    overflow: auto;
+    margin: 0 auto;
+}
+#content{
+    border: 1px solid black;
+    overflow: auto;    
+<!--    float: left; --> 
+}
+
+
+#sidebar{
     
+}
+#footer{
+    border: 1px solid black;  
+    padding-left: 40px;
+}
+.bloggpost{
+<!--       border: 1px solid black; -->    
+
+}
+.dikt{
+    
+}
+.diktstycke{
+    font-style: italic;
+}
+
+.tribut{
+
+}
+
+#pingu{
+<!--       border: 1px solid blue; -->   
+    
+}
+
+#BigBuck{
+    width="320" height="240"
+
+}
+#Videoklipp{
+    width="320" height="240"
 }
 
 .navigation{
     float: left;
-    margin: 5px; 
+    width: 120px;
     list-style:none;
 }
 .navigation ul{ 
-    border: 1px solid black;  
+    border: 1px solid blue;     
     border-bottom: none;
-    margin: 30;
+    margin: 0;
     padding: 0;
 }
 .navigation li{ 
@@ -32,7 +83,7 @@ body {
     display: block;
     background-color: #9C9;
     color:#EFE;
-    padding: 10px;
+    padding: 14px;
 }
 .navigation li a:hover{ 
     background-color: #EFE;

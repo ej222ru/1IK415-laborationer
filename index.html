@@ -6,39 +6,71 @@
         <link rel="stylesheet" type="text/css" href="css/style.css">         
     </head>
     <body>
+    <div id="container">
         <div id="indexHeader">
-            <h1>Erlands kursblogg</h1><img src="pics/ErlandLogo.png" alt="Logo" height=56 width=120> <a id="ErlandLogo"></a>
+            <h1>Erlands kursblogg</h1><img src="pics/ErlandLogo.png" alt="Logo, fäktare som gör ett utfall" height=56 width=120> <a id="ErlandLogo"></a>
             <h2> Hej alla som hittat hit!</h2>
-            <p>På denna blogg kommer jag dokumentera min kurs i Webbteknisk Introduktion</p>
+            <p>På denna blogg kommer jag dokumentera min kurs i Webbteknisk Introduktion, Linnéuniversitetet</p>
         </div>
         <ul class="navigation">
             <li><a href="index.html">Startsida</a></li>
             <li><a href="pages/laborationer.html">Laborationer</a></li>
             <li><a href="pages/presentation.html">Presentation</a></li>
             <li><a href="pages/kontakt.html">Kontakt</a></li>
-        </ul>    
-        <p>
-            <a href="pages/uppgift_1_4.html">Uppgift 1.4</a> i kursen var att svara på frågor om länkar
-            Skrivet av Erland, 2014-09-14
-        </p>        
-        <p><a id=BildPingu></a>
-            Del av uppgift 1.6 var att skapa en svg bild. Tyvärr fick jag ingen ordning på
-            den editorn så jag laddade upp en fin bild istället.
-            <img src="pics/Tux-shaded.svg" id="pingu" alt="Bild på pingvin"/>
-    
-            Skrivet av Erland, 2014-09-14
-        </p>
-        <h3>Kolla in detta läckra klipp</h3>
-        <p>
-            <video width="320" height="240" controls>
-              <source src="videos/Big_Buck_trailer_480p.m4p" type="video/m4p">
-              <source src="videos/big_buck_bunny_trailer_480p_high.mp4" type="video/mp4">
-              <source src="videos/Big_Buck_trailer_400p.ogg" type="video/ogg">
-              <source src="videos/Big_Buck_trailer_480p.mov" type="video/mov">
-              Your browser does not support the video tag.
-            </video>    
-            <a href="http://www.bigbuckbunny.org" target="_blank" id="Videoklipp">Trailern från bigbuckbunny</a>
-            Skrivet av Erland, 2014-09-14
-        </p>
+        </ul> 
+        <div id="content">
+            <h2> Kursblogg</h2>
+            <p class="bloggpost">
+                <a href="pages/uppgift_1_4.html">Uppgift 1.4</a> i kursen var att svara på frågor om länkar
+                <p class="not">Skrivet av Erland, 2014-09-14</p>
+            </p>        
+            <p class="bloggpost"><a id=BildPingu></a>
+                <img src="pics/Tux-shaded.svg" id="pingu" alt="Bild på pingvin"/>
+                Del av uppgift 1.6 var att skapa en svg bild. Tyvärr fick jag ingen ordning på
+                den editorn så jag laddade upp en fin bild istället.
+                <p class="not">Skrivet av Erland, 2014-09-14</p>
+            </p>
+            <p class="bloggpost">
+                
+                <video id="BigBuck"  controls>
+                  <source src="videos/Big_Buck_trailer_480p.m4p" type="video/m4p">
+                  <source src="videos/big_buck_bunny_trailer_480p_high.mp4" type="video/mp4">
+                  <source src="videos/Big_Buck_trailer_400p.ogg" type="video/ogg">
+                  <source src="videos/Big_Buck_trailer_480p.mov" type="video/mov">
+                  Your browser does not support the video tag.
+                </video>
+                Kolla in detta läckra klipp
+                <a href="http://www.bigbuckbunny.org" target="_blank" id="Videoklipp">Trailern från bigbuckbunny</a>
+                <p class="not">Skrivet av Erland, 2014-09-14</p>
+            </p>
+        </div>
+        <div id="footer">
+            <div class="dikt">
+                <p class="diktstycke">
+                Den mätta dagen, den är aldrig störst.
+                Den bästa dagen är en dag av törst.
+                </p>
+                <p class="diktstycke">
+                Nog finns det mål och mening i vår färd -
+                men det är vägen, som är mödan värd.
+                </p>
+                <p class="diktstycke">
+                Det bästa målet är en nattlång rast,
+                där elden tänds och brödet bryts i hast.
+                </p>
+                <p class="diktstycke">
+                På ställen, där man sover blott en gång,
+                blir sömnen trygg och drömmen full av sång.
+                </p>
+                <p class="diktstycke">
+                Bryt upp, bryt upp! Den nya dagen gryr.
+                Oändligt är vårt stora äventyr.
+                </p>
+                <p class="tribut">"I rörelse", Karin Boye</p>
+            </p>
+            </div>
+            
+        </div>
+    </div>    
     </body>
 </html>
