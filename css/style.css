@@ -28,7 +28,9 @@ body {
     border: 1px solid #F3E789;  
     background-color: #F3E789;    
     padding: 40px;
-    background-image: url(pics/smallLogo.png);   
+    background-image: url(pics/smallLogo.png); 
+    background-repeat: round;
+/*    background-size: cover; */
     opacity: 0.5;
 }
 
@@ -116,6 +118,11 @@ body {
 .navigation li a:hover{ 
     background-color: #3D402A;
     color:#F3E789;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    transition-delay: 0.1;
+    transform: scale(1.25);
 }
 
 /***************     Typo     *****************/
