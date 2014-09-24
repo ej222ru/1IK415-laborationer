@@ -82,14 +82,12 @@ body {
     list-style:none;
 }
 .navigation ul{ 
-    border: 1px solid #3D402A;     
     border-bottom: none;
     margin: 0;
     padding: 0;
 }
 .navigation li{ 
-    border: 1px solid black;  
-    border-bottom: 1px solid #3D402A;
+    border: 1px solid #3D402A;  
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -98,7 +96,7 @@ body {
     display: block;
     background-color: #F3FFA9;
     color:#3D402A;
-    padding: 14px;
+    padding: 18px;
 }
 .navigation li a:hover{ 
     background-color: #3D402A;
