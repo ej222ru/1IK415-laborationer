@@ -22,13 +22,14 @@ text  #3D402A
 
 body { 
     background-color: #FFF6B1;
-
 }
 
 #indexHeader{
     border: 1px solid #F3E789;  
     background-color: #F3E789;    
     padding: 40px;
+    background-image: url(pics/smallLogo.png);   
+    opacity: 0.5;
 }
 
 #container{
@@ -38,13 +39,12 @@ body {
     background-color: #FFF6B1;   
     border: 2px solid #3D402A;
 }
+
 #content{
     border: 1px solid #FFF6B1;
     overflow: auto;    
     margin-left: 180px;
-<!--    float: left; --> 
 }
-
 
 #sidebar{
     
@@ -53,30 +53,36 @@ body {
     border: 1px solid #F3E789;  
     padding-left: 40px;
     background-color: #F3E789;
-}
-.bloggpost{
-<!--       border: 1px solid #3D402A; -->    
 
 }
+
+.bloggpost{
+}
+
+.not{
+    background-image: url(pics/SPbaun6.ico); 
+    background-repeat: no-repeat; 
+    background-position: top left;
+    text-indent: 40px;
+}
+
 .dikt{
     color: #D93E27;
 }
+
 .diktstycke{
 }
 
 .tribut{
-
 }
 
 #pingu{
-<!--       border: 1px solid blue; -->   
-    
 }
 
 #BigBuck{
     width="320" height="240"
-
 }
+
 #Videoklipp{
     width="320" height="240"
 }
@@ -86,23 +92,27 @@ body {
     width: 120px;
     list-style:none;
 }
+
 .navigation ul{ 
     border-bottom: none;
     margin: 0;
     padding: 0;
 }
+
 .navigation li{ 
     border: 1px solid #FFF6B1;  
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
+
 .navigation li a{ 
     display: block;
     background-color: #F3E789;
     color: #3D402A;
     padding: 18px;
 }
+
 .navigation li a:hover{ 
     background-color: #3D402A;
     color:#F3E789;
@@ -128,11 +138,12 @@ a {
     font-weight: bold;    
 }
 
-a:hover{ 
+a:hover { 
     background-color: #3D402A;
     color:#F3E789;
 }
-.navigation li a{ 
+
+.navigation li a { 
     font-style: normal;
     font-weight: normal;       
 }
@@ -141,11 +152,10 @@ p {
       font-size: 1.2em;
 }
 
-.dikt{
+.dikt {
     font-weight: bold;
-    
 }
 
-.diktstycke{
+.diktstycke {
     font-style: italic;
 }
