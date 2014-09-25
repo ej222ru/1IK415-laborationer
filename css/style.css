@@ -61,6 +61,7 @@ body {
 }
 
 .bloggpost{
+       overflow: auto;  
 }
 
 .not{
@@ -85,20 +86,18 @@ body {
 }
 
 #BigBuck{
-    width:320px; height:240px;
+    width="320" height="240"
 }
 
 #Videoklipp{
-    width:320px; height:240px;
+    width="320" height="240"
 }
-
 .right{
         float: right;
 }
 .left{
         float: left;
 }
-
 .navigation{
     float: left;
     width: 120px;
