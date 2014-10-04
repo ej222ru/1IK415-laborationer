@@ -204,3 +204,22 @@ p {
  
 }
 
+/***************     Media     *****************/
+
+@media print {
+    .navigation {
+        display:none;
+    }
+    
+    .internalLabLinks {
+        display:none;
+    }
+    
+    .videoklipp {
+            display : none;
+    }
+    
+    #content a:after {
+        content: " (" attr(href) ")";
+    }
+}
