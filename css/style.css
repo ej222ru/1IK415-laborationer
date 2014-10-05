@@ -90,6 +90,7 @@ body {
     text-indent: 40px;
 }
 
+
 .dikt{
     color: #D93E27;
 }
@@ -100,6 +101,50 @@ body {
 .tribut{
 }
 
+.menuicon {
+    background-image: url(pics/sprite.png); 
+    width: 24px,
+    height: 24px;
+    display: block;
+    float:left;
+}
+.menuicon span {dispaly:none}
+#menuhome {
+    background-repeat: no-repeat; 
+    background-position: 0 -48px;
+    text-indent: 24px;
+    
+}
+#menulaboration {
+    background-repeat: no-repeat; 
+    background-position: 0 -144px;
+    text-indent: 24px;
+    
+}
+#menupresentation {
+    background-repeat: no-repeat; 
+    background-position: 0 -240px;
+    text-indent: 24px;
+    
+}
+#menukontakt{
+    background-repeat: no-repeat; 
+    background-position: 0 -336px;
+    text-indent: 24px;
+    
+}
+#menuhome:hover {
+    background-position: 0px 0px;
+}
+#menulaboration:hover {
+    background-position: 0px -96px;
+}
+#menupresentation:hover {
+    background-position: 0px -192px;
+}
+#menukontakt:hover {
+    background-position: 0px -288px;
+}
 #pingu:hover{
     transform: rotate(20deg) scale(1.6) translate(50px);    
 }
@@ -140,7 +185,7 @@ body {
     display: block;
     background-color: #F3E789;
     color: #3D402A;
-    padding: 18px;
+    padding: 5px;
 }
 
 .navigation li a:hover{ 
@@ -219,7 +264,7 @@ p {
             display : none;
     }
     
-    #content a:after {
+    content a:after {
         content: " (" attr(href) ")";
     }
 }
