@@ -103,12 +103,12 @@ body {
 
 .menuicon {
     background-image: url(pics/sprite.png); 
-    width: 24px,
+/*    width: 24px; */
     height: 24px;
     display: block;
     float:left;
 }
-.menuicon span {dispaly:none}
+
 #menuhome {
     background-repeat: no-repeat; 
     background-position: 0 -48px;
@@ -150,11 +150,11 @@ body {
 }
 
 #BigBuck{
-    width="320" height="240"
+    width:320px; height:240px;
 }
 
 #Videoklipp{
-    width="320" height="240"
+    width:320px; height:240px;    
 }
 .right{
         float: right;
@@ -194,7 +194,7 @@ body {
     transition-property: all;
     transition-duration: 1s;
     transition-timing-function: ease;
-    transition-delay: 0.1;
+    transition-delay: 0.1s;
     transform: scale(1.25);
 }
 
