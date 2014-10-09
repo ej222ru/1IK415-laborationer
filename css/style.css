@@ -270,7 +270,7 @@ p {
             display : none;
     }
     
-    content a:after {
+    #content a:after {
         content: " (" attr(href) ")";
     }
 }
