@@ -31,7 +31,7 @@ body {
     background-image: url(pics/smallLogo.png); 
     background-repeat: round;
 /*    background-size: cover; */
-    opacity: 0.5;
+    opacity: 0.7;
 }
 
 #container{
@@ -107,9 +107,9 @@ body {
 .tribut{
 }
 
-.menuicon {
+.menuitem {
     background-image: url(pics/sprite.png); 
-/*    width: 24px; */
+    width: 120px;
     height: 24px;
     display: block;
     float:left;
@@ -206,6 +206,7 @@ body {
 
 /***************     Typo     *****************/
 
+
 p, h1, h2, h3 {
       color: #D93E27;
       font-family: Georgia, "Times New Roman", Times, serif;
@@ -258,6 +259,9 @@ p {
 /***************     Media     *****************/
 
 @media print {
+    #indexHeader{
+        opacity: 1.0;
+    }    
     .navigation {
         display:none;
     }
@@ -265,12 +269,30 @@ p {
     .internalLabLinks {
         display:none;
     }
-    
-    .videoklipp {
-            display : none;
+  
+    a, p, ol li, ul li, h1, h2, h3 {
+          color: black;
+          font-family: "Times New Roman", Times, serif;
     }
-    
+      
+    container {
+        color:black;
+    }
+   video {
+        display : none;
+    }
+    iframe {
+        display:none;
+    }
+    *::-controls {
+        display: none;
+    }
+    #content {  
+        margin-left: 0;  
+        color:black;        
+    }
     #content a:after {
         content: " (" attr(href) ")";
+        color:black;  
     }
 }
