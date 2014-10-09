@@ -59,9 +59,12 @@ body {
     background-color: #F3E789;
 
 }
-#contact-form{ width: 500px;}
+#contact-form{ 
+    width: 500px;
+    background-color: #F3E789;
+}
 
-#contact-form label { 
+#contact-form label : { 
     width: 180px;
     text-align: right;
     display: block;
@@ -72,8 +75,11 @@ body {
 
 #contact-form textarea, input { 
     width: 240px;
+    background-color: #FFF6B1;      
 }
-
+#contact-form select { 
+    background-color: #FFF6B1;      
+}
 #contact-form textarea { 
     height: 100px;
     resize:vertical;
