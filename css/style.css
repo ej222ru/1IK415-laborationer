@@ -10,8 +10,8 @@
 
 /*
 
-background body #FFF6B1
-background container #FFF6B1
+background body #C9C9C9
+background container #C9C9C9
 footer   #F3E789
 border #3D402A
 navigation  #3D402A / #F3FFA9;
@@ -21,35 +21,42 @@ text  #3D402A
 */
 
 body { 
-    background-color: #FFF6B1;
+    background-color: #C9C9C9;
 }
 
 #indexHeader{
-    border: 1px solid #F3E789;  
-    background-color: #F3E789;    
+    border: 1px solid #EDE8CD;  
+   
+    background-color: #EDE8CD;  
+    background-color: #F3E789;     
     padding: 40px;
     background-image: url(pics/smallLogo.png); 
     background-repeat: round;
 /*    background-size: cover; */
-    opacity: 0.7;
+    opacity: 0.4;
 }
 
 #container{
     max-width: 960px;
     overflow: auto;
     margin: 0 auto;
-    background-color: #FFF6B1;   
+    background-color: #F3E789;   
     border: 2px solid #3D402A;
 }
 
+#contentFrame{
+    border: 1px solid #EDE8CD;
+    background-color: #EDE8CD;     
+}
 #content{
-    border: 1px solid #FFF6B1;
+    border: 1px solid #EDE8CD;
     overflow: auto;    
     margin-left: 180px;
+    background-color: #EDE8CD;     
 }
 
 #sidebar{
-    
+
 }
 #footer{
     border: 1px solid #F3E789;  
@@ -75,10 +82,10 @@ body {
 
 #contact-form textarea, input { 
     width: 240px;
-    background-color: #FFF6B1;      
+    background-color: #EDE8CD;      
 }
 #contact-form select { 
-    background-color: #FFF6B1;      
+    background-color: #EDE8CD;      
 }
 #contact-form textarea { 
     height: 100px;
@@ -172,6 +179,7 @@ body {
     float: left;
     width: 120px;
     list-style:none;
+    background-color: #EDE8CD;         
 }
 
 .navigation ul{ 
@@ -181,7 +189,7 @@ body {
 }
 
 .navigation li{ 
-    border: 1px solid #FFF6B1;  
+    border: 1px solid #EDE8CD;  
     list-style-type: none;
     margin: 0;
     padding: 0;
