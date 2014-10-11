@@ -169,7 +169,7 @@ body {
     height: 24px;
     display: block;
     float:left;
-        border: solid 1px #3D402A;  
+    border: solid 1px #3D402A;  
 }
 
 #menuhome {
@@ -222,6 +222,7 @@ body {
 #fencerspic {
     max-width: 460px;
 }
+
 .right{
         float: right;
 }
