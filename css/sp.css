@@ -1,0 +1,24 @@
+@import url("http://meyerweb.com/eric/tools/css/reset/reset.css");
+
+.navigation{
+    float: none ;
+}
+.activeMenuitem {
+    float: none;
+}
+.menuitem {
+    float: none;
+}
+.right{
+        float: none;
+}
+.bloggpost{
+       overflow: none;  
+}
+#content{
+    overflow: auto;    
+    margin-left: 0px;
+}
+#fencerspic {
+    width: 320px;
+}
