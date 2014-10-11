@@ -19,6 +19,18 @@
 .diktstycke {
     padding-left: 0;
 }
+#contact-form label { 
+    width: 160px;
+    text-align: left;
+    display: block;
+    float: none;
+    padding-right: 10px;
+    clear: left;
+}
+
+#email, #phone { 
+    width : auto;
+}
 #container{
     background-color: #EDE8CD;   
 }
