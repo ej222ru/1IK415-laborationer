@@ -28,6 +28,8 @@
     clear: left;
 }
 
+img, video { max-width: 100%; }
+
 #email, #phone { 
     width : auto;
 }
