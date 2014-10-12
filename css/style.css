@@ -147,6 +147,9 @@ body {
     color: #3D402A;
     padding: 5px;
 }
+.navigation .activeMenuitem{ 
+    background-color: #EDE8CD;
+}
 
 .navigation li a:hover{ 
     background-color: #3D402A;
@@ -166,11 +169,7 @@ body {
     float:left;
     border: solid 1px #3D402A;      
 }
-.navigation .activeMenuitem 
-{
-     background-color: #EDE8CD;  
-     border: solid 1px #3D402A;        
-}
+
 
 .menuitem {
     background-image: url(pics/sprite.png); 
@@ -239,6 +238,15 @@ body {
         float: left;
 }
 
+#Labbresultat {
+    border: solid 1px black ;
+}
+#Labbresultat th, td{
+    border: solid 1px black ;
+}
+thead, tr{
+    border: solid 1px black ;
+}
 /***************     Typo     *****************/
 
 
@@ -246,9 +254,7 @@ p, h1, h2, h3 {
       color: #D93E27;
       font-family: Georgia, "Times New Roman", Times, serif;
 }
-table {
-    border: solid black 1px;
-}
+
 
 li, dd, dt {
     font-family: Georgia, "Times New Roman", Times, serif;  
