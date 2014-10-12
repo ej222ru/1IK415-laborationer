@@ -26,9 +26,7 @@ body {
 
 #indexHeader{
     border: 1px solid #EDE8CD;  
-   
-    background-color: #EDE8CD;  
-    background-color: #F3E789;     
+    background-color: #F3E789;       
     padding: 40px;
     background-image: url(pics/smallLogo.png); 
     background-repeat: round;
@@ -46,7 +44,7 @@ body {
 
 #contentFrame{
     border: 1px solid #EDE8CD;
-    background-color: #EDE8CD;     
+    background-color: #EDE8CD;   
 }
 #content{
     border: 1px solid #EDE8CD;
@@ -126,7 +124,8 @@ body {
     float: left;
     width: 120px;
     list-style:none;
-    background-color: #EDE8CD;       
+    background-color: #EDE8CD;   
+
 }
 
 .navigation ul{ 
@@ -149,7 +148,6 @@ body {
     padding: 5px;
 }
 
-
 .navigation li a:hover{ 
     background-color: #3D402A;
     color:#F3E789;
@@ -162,16 +160,18 @@ body {
 
 .activeMenuitem {
     background-image: url(pics/sprite.png); 
-    background-color: #F3E789;   
     width: 120px;
-    height: 36px;
+    height: 34px;
     display: block;
     float:left;
+    border: solid 1px #3D402A;      
 }
-.activeMenuitem li a{ 
-    background-color: #EDE8CD;
+.navigation .activeMenuitem 
+{
+     background-color: #EDE8CD;  
      border: solid 1px #3D402A;        
 }
+
 .menuitem {
     background-image: url(pics/sprite.png); 
     width: 120px;
@@ -245,6 +245,9 @@ body {
 p, h1, h2, h3 {
       color: #D93E27;
       font-family: Georgia, "Times New Roman", Times, serif;
+}
+table {
+    border: solid black 1px;
 }
 
 li, dd, dt {
