@@ -27,14 +27,14 @@
             <h2> Hej alla som hittat hit!</h2>
             <p>På denna blogg kommer jag dokumentera min kurs i Webbteknisk Introduktion, Linnéuniversitetet</p>
         </header>
-        <ul > 
-            <nav>
-                <li><a id="menuhome" class="activeMenuitem" href="index.html">Startsida</a></li>
-                <li><a id="menulaboration" class="menuitem" href="pages/laborationer.html">Laborationer</a></li>
-                <li><a id="menupresentation" class="menuitem" href="pages/presentation.html">Presentation</a></li>
-                <li><a id="menukontakt" class="menuitem" href="pages/kontakt.html">Kontakt</a></li>
-            </nav>
-        </ul> 
+        <nav>
+            <ul > 
+                    <li><a id="menuhome" class="activeMenuitem" href="index.html">Startsida</a></li>
+                    <li><a id="menulaboration" class="menuitem" href="pages/laborationer.html">Laborationer</a></li>
+                    <li><a id="menupresentation" class="menuitem" href="pages/presentation.html">Presentation</a></li>
+                    <li><a id="menukontakt" class="menuitem" href="pages/kontakt.html">Kontakt</a></li>
+            </ul> 
+        </nav>
         <div id=contentFrame>
         <Main>
             <h2>Kursblogg</h2>
@@ -47,10 +47,14 @@
                 Del av uppgift 1.6 var att skapa en svg bild. Tyvärr fick jag ingen ordning på
                 den editorn så jag laddade upp en fin bild istället.
                 <p class="not">Skrivet av Erland, 2014-09-14</p>
-                <ul class="bloggcomment">
-                    <h3>Kommentarer</h3>
-                    <li>Linus T> Känner igen bilden. Var har du fått den ifrån?:)</li>    
-                </ul>            </article>
+                <section class="bloggcomment">
+                    <ul>
+                        <h3>Kommentarer</h3>
+                        <li>Linus T> Känner igen bilden. Var har du fått den ifrån?:)</li>    
+                    </ul>            
+                </section >
+                        
+            </article>
             <article class="bloggpost">
                 <div class="videoklipp">
                     <video id="BigBuck"  controls>
@@ -64,11 +68,13 @@
                 Kolla in detta läckra klipp
                 <a href="http://www.bigbuckbunny.org" target="_blank" alt="Trailer video Big Buck Bunny">Trailern från bigbuckbunny</a>
                 <p class="not">Skrivet av Erland, 2014-09-14</p>
-                <ul class="bloggcomment">
-                    <h3>Kommentarer</h3>
-                    <li>Marie> Den var riktigt vacker:)</li>    
-                    <li>Peter>hackar för mig :(</li>    
-                </ul>
+                <section class="bloggcomment">
+                    <ul>
+                        <h3>Kommentarer</h3>
+                        <li>Marie> Den var riktigt vacker:)</li>    
+                        <li>Peter>hackar för mig :(</li>    
+                    </ul>
+                </section >
             </article>
             <article class="bloggpost">
                 <img src="pics/fencing.jpg" class="right" id="fencerspic" alt="Bild på fäktare"/> 
@@ -78,13 +84,15 @@
                 <p>Modern fäktning kommer från 1700-talet av den italienska skolan av fäktning under renässansen och i och med influenser från den franska skolan av fäktning utvecklades den. Den spanska skolan av fäktning blev inte framgångsrik förrän under 1800-talet. Idag är dessa tre skolor de mest inflytelserika i världen. </p>
                 <p>Efter världskrigen försvann behovet av att faktiskt duellera vilket varit ett behov för den manliga delen av aristokratin tidigare. Men fäktningen levde kvar som sport och tävling.  Med en början av värja 1936, senare florett 1956 och slutligen även sabel 1988 så automatiserades poängräknandet vilket möjliggjorde snabbare  och lättare poängräkning. </p>
                 <p class="not">Uppdaterad av Erland, 2014-10-10</p>
-                <ul class="bloggcomment">
-                    <h3>Kommentarer</h3>
-                    <li>Horst> Du äger på pisten </li>    
-                    <li>Maja> Härlig stöt </li>   
-                    <li>Soffan> Vet inget om fäktning men du har vackra dikter ❤️</li> 
-                    <li>Maja> Kolla in lagfinalen från OS. Finns på Youtube</li>                     
-                </ul>            
+                <section class="bloggcomment">
+                    <ul>
+                        <h3>Kommentarer</h3>
+                        <li>Horst> Du äger på pisten </li>    
+                        <li>Maja> Härlig stöt </li>   
+                        <li>Soffan> Vet inget om fäktning men du har vackra dikter ❤️</li> 
+                        <li>Maja> Kolla in lagfinalen från OS. Finns på Youtube</li>                     
+                    </ul>    
+                </section >
             </article>              
             <article class="bloggpost">
                 <p>En uppgift var att från en HTML-sida styla den enligt ett givet slutresultat som visades som bild. </p>

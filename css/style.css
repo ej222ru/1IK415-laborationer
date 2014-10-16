@@ -151,7 +151,7 @@ nav ul{
 nav li{ 
     border: 1px solid #EDE8CD;  
     list-style-type: none;
-    margin: 0;
+    margin-left: 30px;
     padding: 0;
 }
 
