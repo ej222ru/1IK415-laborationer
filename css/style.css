@@ -24,7 +24,7 @@ body {
     background-color: #C9C9C9;
 }
 
-#indexHeader{
+header {
     border: 1px solid #EDE8CD;  
     background-color: #F3E789;       
     padding: 40px;
@@ -303,7 +303,7 @@ p {
 /***************     Media     *****************/
 
 @media print {
-    #indexHeader{
+    header {
         opacity: 1.0;
     }    
     .navigation {
