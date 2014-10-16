@@ -50,7 +50,7 @@ header {
     border: 1px solid #EDE8CD;
     background-color: #EDE8CD;   
 }
-#content{
+Main {
     border: 1px solid #EDE8CD;
     overflow: auto;    
     margin-left: 180px;
@@ -103,7 +103,7 @@ footer {
     width : auto;
 }
 
-.bloggpost{
+article {
        overflow: auto;  
 }
 
@@ -335,11 +335,11 @@ p {
     *::-controls {
         display: none;
     }
-    #content {  
+    Main {  
         margin-left: 0;  
         color:black;        
     }
-    #content a:after {
+    Main a:after {
         content: " (" attr(href) ")";
         color:black;  
     }
