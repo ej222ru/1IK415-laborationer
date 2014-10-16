@@ -106,7 +106,17 @@ footer {
 .bloggpost {
        overflow: auto;  
 }
-
+.bloggcomment h3, .bloggcomment  li{
+    overflow: auto;  
+    color: black;
+    font-style: italic;  
+}
+.bloggcomment h3, .bloggcomment  li{
+    padding-bottom : 4px
+}
+.bloggcomment {
+    padding-bottom : 10px;
+}
 .not{
     background-image: url(pics/SPbaun6.ico); 
     background-repeat: no-repeat; 
