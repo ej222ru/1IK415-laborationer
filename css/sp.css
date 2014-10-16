@@ -13,7 +13,7 @@
 .left{
         float: none;
 }
-article {
+.bloggpost {
        overflow: hidden;  
 }
 .diktstycke {
