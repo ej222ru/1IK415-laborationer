@@ -19,6 +19,10 @@ dikt #D93E27
 text  #3D402A
 
 */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, main, menu, nav, section{ 
+ display: block; 
+} 
 
 body { 
     background-color: #C9C9C9;
@@ -56,7 +60,7 @@ header {
 #sidebar{
 
 }
-#footer{
+footer {
     border: 1px solid #F3E789;  
     padding-top: 60px;
     padding-left: 40px;
