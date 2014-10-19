@@ -134,7 +134,7 @@ footer {
 
 .tribut{
 }
-nav {
+.navigation {
     float: left;
     width: 120px;
     list-style:none;
@@ -142,30 +142,30 @@ nav {
 
 }
 
-nav ul{ 
+.navigation ul{ 
     border-bottom: none;
     margin: 0;
     padding: 0;
 }
 
-nav li{ 
+.navigation li{ 
     border: 1px solid #EDE8CD;  
     list-style-type: none;
     margin-left: 30px;
     padding: 0;
 }
 
-nav li a{ 
+.navigation li a{ 
     display: block;
     background-color: #F3E789;
     color: #3D402A;
     padding: 5px;
 }
-nav .activeMenuitem{ 
+.navigation .activeMenuitem{ 
     background-color: #EDE8CD;
 }
 
-nav li a:hover{ 
+.navigation li a:hover{ 
     background-color: #3D402A;
     color:#F3E789;
     transition-property: all;
@@ -288,7 +288,7 @@ a:hover {
     color:#F3E789;
 }
 
-nav li a { 
+.navigation li a { 
     font-style: normal;
     font-weight: normal;       
 }
@@ -320,7 +320,7 @@ p {
     header {
         opacity: 1.0;
     }    
-    nav {
+    .navigation {
         display:none;
     }
     
