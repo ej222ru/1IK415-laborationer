@@ -1,0 +1,12 @@
+@import url("http://meyerweb.com/eric/tools/css/reset/reset.css");
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, main, menu, nav, section{ 
+ display: block; 
+} 
+
+
+body { 
+    background-color: #EDE8CD;
+}
+
+
