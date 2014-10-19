@@ -1,12 +1,57 @@
 @import url("http://meyerweb.com/eric/tools/css/reset/reset.css");
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, main, menu, nav, section{ 
- display: block; 
-} 
+
 
 
 body { 
     background-color: #EDE8CD;
 }
+#container
+{
+    background-color:#F3E789;
+    padding:10px;
+    max-width:960px;
+    margin-left:auto;
+    margin-right:auto;
+}
+#container h1
+{
+    font-family: 'OldLondon';
+}
+a {
+    display: block;
+
+}
+
+#image img {
+    height : 120px;
+    width : 100px;
+    
+}
+
+#images a:nth-child(2) {
+    
+    transform: rotate(20deg) ;
+} 
+#images a:hover {
+    
+    transform:  scale(1.2);
+} 
 
 
+.navigation li a:hover{ 
+    background-color: #3D402A;
+    color:#F3E789;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    transition-delay: 0.1s;
+    transform: scale(1.25);
+}
+ 
+ #pingu:hover{
+    transform: rotate(20deg) scale(1.6) translate(50px);    
+}   
+    .dikt:hover {
+    font-weight: bold;
+    transform:  scale(1.0) ;
+}
